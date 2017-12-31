@@ -1,0 +1,17 @@
+Intro:
+
+In this project python, a variation of sql called sqlite and the python-XML module are used in order to create aq OpenStreetMaps' dataset database. The point of this project was to train with sql language and xml-to-sql translation with python. The project also deals with the intricasies of programatically editing and handling data.
+
+Summary:
+	
+FinalProject.py - handles all data modification and integration into the sqlite database. Make sure to add the xml file's name to xml_to_sqlite.
+
+checks.py - peripheral custom function library to handle dataset evaluation and editing.
+
+stats.py - sql queries with basic statistics of the database's data.
+
+xml_to_sqlite - actual code employed in FinalProject.py in order to translate the xml data to sqlite/
+
+Resources:
+
+Mapzen Metro Extracts - https://mapzen.com/data/metro-extracts/
